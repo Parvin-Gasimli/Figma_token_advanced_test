@@ -1,0 +1,29 @@
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-width: (1px*($sd-border-width-sm));
+    border-color:$sd-color-rose-600 ;
+    border-style: solid;
+
+}
+button{
+
+    background-color:$sd-color-indigo-800 ;
+    color:$sd-semantic-color-fg-muted ;
+    font-size: (1px*($sd-semantic-font-size-base));
+    font-weight: $sd-semantic-font-weights-body-bold;
+
+    padding-left: (1px*($sd-button-padding-x));
+    padding-right: (1px*($sd-button-padding-x));
+    padding-top: (1px*($sd-button-padding-y));
+    padding-bottom: (1px*($sd-button-padding-y));
+}
+p{
+    font-size: (1px*($sd-semantic-font-size-9xl));
+    @media (max-width:768px) {
+        font-size: (1px*($sd-semantic-font-size-2xl));
+    }
+
+}

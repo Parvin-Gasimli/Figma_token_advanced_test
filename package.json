@@ -1,0 +1,26 @@
+{
+  "name": "figma_token_advanced_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transformer": "token-transformer token.json tokens/input.json",
+		"dictionary": "style-dictionary build --config config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parvin-Gasimli/Figma_token_advanced_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parvin-Gasimli/Figma_token_advanced_test/issues"
+  },
+  "homepage": "https://github.com/Parvin-Gasimli/Figma_token_advanced_test#readme",
+  "dependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.28"
+  }
+}

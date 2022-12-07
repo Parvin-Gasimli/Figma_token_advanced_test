@@ -1,0 +1,31 @@
+img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-width: 1px;
+  border-color: #e11d48;
+  border-style: solid;
+}
+
+button {
+  background-color: #3730a3;
+  color: #d1d5db;
+  font-size: 16px;
+  font-weight: Bold;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+p {
+  font-size: 99px;
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=style.css.map */
